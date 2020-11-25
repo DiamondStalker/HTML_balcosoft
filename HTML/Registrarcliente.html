@@ -1,15 +1,15 @@
 <!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com -->
-
+<!-- Last Published: Wed Nov 25 2020 22:53:23 GMT+0000 (Coordinated Universal Time) -->
 <html data-wf-domain="balcosoft.webflow.io" data-wf-page="5f91b005daa94f3ad082ab5e" data-wf-site="5f8f94aa13e930d50ce058c6" data-wf-status="1">
 
 <head>
   <meta charset="utf-8" />
-  <title>Registrar Cliente </title>
+  <title>Sesion</title>
   <meta content="Sesion" property="og:title" />
   <meta content="Sesion" property="twitter:title" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta content="Webflow" name="generator" />
-  <link href="https://uploads-ssl.webflow.com/5f8f94aa13e930d50ce058c6/css/balcosoft.webflow.b6e87d5f4.css" rel="stylesheet" type="text/css" />
+  <link href="https://uploads-ssl.webflow.com/5f8f94aa13e930d50ce058c6/css/balcosoft.webflow.26dc2db12.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">
     WebFont.load({
@@ -34,33 +34,23 @@
   <div class="utility-page-wrap w-container">
     <div class="form-block w-form">
       <form id="email-form" name="email-form" data-name="Email Form" method="post" redirect="index.html" data-redirect="index.html" class="form">
-        <h1 class="heading"><strong>Registrar Cliente</strong></h1><label for="Identificacion-2" class="field-label">Tipo de documento</label><select id="Identificacion" name="Identificacion" required="" data-name="Identificacion"
+        <h1 class="heading"><strong>Registrar Empleado</strong></h1><label for="Identificacion-2" class="field-label">Tipo de documento</label><select id="Identificacion" name="Identificacion" required="" data-name="Identificacion"
           class="select-field w-select">
           <option value="CC">Cedula de Ciudadanía</option>
           <option value="CE">Cedula de Extranjería</option>
-        </select>
-        <label for="Telefono" class="field-label">*Genero</label>
-        <label class="w-checkbox">
-          <input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" checked="" class="w-checkbox-input checkbox" />
-          <span class="checkbox-label w-form-label">Femenino</span>
-        </label>
-        <label class="w-checkbox">
-          <input type="checkbox" id="Masculino" name="Masculino" data-name="Masculino" class="w-checkbox-input checkbox-2" />
-          <span for="Masculino" class="checkbox-label-2 w-form-label">Masculina</span>
-        </label>
-        <label for="Primer-Nombre" class="field-label">* Primer Nombre</label>
-          <input type="text" class="text-field primernombre w-input" autofocus="true" maxlength="256" name="Primer-Nombre" data-name="Primer Nombre" placeholder="Primer Nombre" id="Primer-Nombre" required="" />
-        <label for="Segundo-Nombre" class="field-label"> Segundo Nombre</label>
-        <input type="text" class="text-field usuario w-input" autofocus="true" maxlength="256" name="Segundo-Nombre" data-name="Segundo Nombre" placeholder="Segundo Nombre" id="Segundo-Nombre" />
-        <label for="Primer-Apellido" class="field-label">* Primer Apellido</label>
-        <input type="text" class="text-field usuario w-input" autofocus="true" maxlength="256" name="Primer-Apellido" data-name="Primer Apellido" placeholder="Primer Apellido" id="Primer-Apellido" required="" /><label for="Segundo-Apellido"
+        </select><input type="number" class="text-field primernombre w-input" autofocus="true" maxlength="12" name="Cedula" data-name="Cedula" placeholder="Numero de identificacion" id="Cedula" required="" /><label for="Telefono"
+          class="field-label">*Genero</label><label class="w-checkbox"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" checked="" class="w-checkbox-input checkbox" /><span
+            class="checkbox-label w-form-label">Femenino</span></label><label class="w-checkbox"><input type="checkbox" id="Masculino" name="Masculino" data-name="Masculino" class="w-checkbox-input checkbox-2" /><span for="Masculino"
+            class="checkbox-label-2 w-form-label">Masculina</span></label><label for="Primer-Nombre" class="field-label">* Primer Nombre</label><input type="text" class="text-field primernombre w-input" autofocus="true" maxlength="256"
+          name="Primer-Nombre" data-name="Primer Nombre" placeholder="Primer Nombre" id="Primer-Nombre" required="" /><label for="Segundo-Nombre" class="field-label"> Segundo Nombre</label><input type="text" class="text-field usuario w-input"
+          autofocus="true" maxlength="256" name="Segundo-Nombre" data-name="Segundo Nombre" placeholder="Segundo Nombre" id="Segundo-Nombre" /><label for="Primer-Apellido" class="field-label">* Primer Apellido</label><input type="text"
+          class="text-field usuario w-input" autofocus="true" maxlength="256" name="Primer-Apellido" data-name="Primer Apellido" placeholder="Primer Apellido" id="Primer-Apellido" required="" /><label for="Segundo-Apellido"
           class="field-label">Segundo Apellido</label><input type="text" class="text-field usuario w-input" autofocus="true" maxlength="256" name="Segundo-Apellido" data-name="Segundo Apellido" placeholder="Segundo Apellido"
           id="Segundo-Apellido" /><label for="email" class="field-label">*Correo electronico</label><input type="email" class="text-field usuario w-input" autofocus="true" maxlength="256" name="email" data-name="email"
-          placeholder="Correo Electronico" id="email" />
-          <label for="Segundo-Apellido-3" class="field-label">*Fecha de nacimiento</label><input type="date" class="text-field usuario w-input" autofocus="true" maxlength="256" name="Segundo-Apellido-2"
+          placeholder="Correo Electronico" id="email" /><label for="Segundo-Apellido-3" class="field-label">*Fecha de nacimiento</label><input type="date" class="text-field usuario w-input" autofocus="true" maxlength="256" name="Segundo-Apellido-2"
           data-name="Segundo Apellido 2" placeholder="Segundo Apellido" id="Segundo-Apellido-2" /><label for="Telefono-2" class="field-label">*Telefono-Celular</label><input type="tel" class="text-field usuario w-input" autofocus="true"
           maxlength="256" name="Telefono" data-name="Telefono" placeholder="Telefono-Celular" id="Telefono" /><label for="Direccuion" class="field-label">*Direccion</label><input type="text" class="text-field usuario w-input" autofocus="true"
-          maxlength="256" name="Direccuion" data-name="Direccuion" placeholder="Carrera #- #" id="Direccuion" required="" /><input type="submit" value="Registrar" data-wait="Please wait..." class="submit-button w-button" /><a href="index.html"
+          maxlength="256" name="Direccuion" data-name="Direccuion" placeholder="Carrera #- #" id="Direccuion" required="" /><input type="submit" value="Registrar" data-wait="Please wait..." class="submit-button w-button" /><a href="http://index.html"
           class="button-4 w-button">Regresar</a>
       </form>
       <div class="w-form-done">
